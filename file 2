@@ -6,5 +6,15 @@ float Rata_rata(float a, floatb){
 }
 
 string Status_lulus(float r){
-    
+    if (r >= 60)
+        return "Lolos";
+    else
+        return "Gagal";
+}
+
+string Status_lulus2(float r){
+    if (r >= 60)
+        return "Lolos";
+    else
+        return "Gagal";
 }
